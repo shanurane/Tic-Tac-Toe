@@ -1,0 +1,56 @@
+.cross-line {
+  background-color: blue;
+  transform-origin: center;
+}
+
+.diagonal-line-1 {
+  transform: rotate(45deg);
+  width: 140%;
+  height: 5px;
+  top: 50%;
+  left: -20%;
+}
+
+.diagonal-line-2 {
+  transform: rotate(-45deg);
+  width: 140%;
+  height: 5px;
+  top: 50%;
+  left: -20%;
+}
+
+.vertical-line-1 {
+  width: 5px;
+  height: 100%;
+  left: calc(16.666% - 1px);
+}
+
+.vertical-line-2 {
+    width: 5px;
+  height: 100%;
+  left: calc(50% - 1px);
+}
+
+.vertical-line-3 {
+    width: 5px;
+  height: 100%;
+  left: calc(83.333% - 1px);
+}
+
+.horizontal-line-1 {
+    width:100%;
+    height:5px;
+  top: calc(16.666% - 1px);
+}
+
+.horizontal-line-2 {
+    width:100%;
+    height:5px;
+  top: calc(50% - 1px);
+}
+
+.horizontal-line-3 {
+    width:100%;
+    height:5px;
+  top: calc(83.333% - 1px);
+}
